@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:/MingGW/include/**",
+        "D:/MingGW/lib/gcc/mingw32/*/include/**",
+        "D:/MingGW/x86_64-w64-mingw32/include/**",
+        "C:/msys64/mingw64/include/**",
+        "C:/Program Files (x86)/Windows Kits/10/Include/*/um/**",
+        "C:/Program Files (x86)/Windows Kits/10/Include/*/shared/**",
+        "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/*/include/**",
+        "C:/Program Files (x86)/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/*/include/**"
+      ],
+      "defines": [
+        "_WIN32",
+        "_DEBUG"
+      ],
+      "compilerPath": "/d/MingGW/bin/gcc",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "${default}",
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**",
+          "D:/MingGW/include/**",
+          "D:/MingGW/lib/gcc/mingw32/*/include/**"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
